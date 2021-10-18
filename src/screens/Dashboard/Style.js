@@ -53,10 +53,10 @@ import { StyleSheet,Dimensions } from "react-native";
         marginVertical:8,
         backgroundColor: "#fff",
         alignSelf: "center",
-        height : Dimensions.get('window').height/4,
+        height : Dimensions.get('window').height/4.2,
         // marginBottom: 10,
-        width: Dimensions.get('window').width/2.2,
-        borderRadius:15,
+        width: Dimensions.get('window').width/2.3,
+        borderRadius:25,
         
       },
    

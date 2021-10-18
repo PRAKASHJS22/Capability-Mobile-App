@@ -50,13 +50,26 @@ import { StyleSheet } from "react-native";
       color:'#fff'
       
     },
-   
+   errorText:{
+     fontSize:14,
+     marginLeft:40,
+     marginBottom:10,
+     marginVertical:-10,
+     color:'red',
+     textAlign:'left',
+     alignSelf:'flex-start'
+
+   },
+
     forgot_button: {
       // height: 30,
       marginLeft:180,
       marginBottom: 30,
+      // backgroundColor:'yellow',
       fontWeight:'600',
-      fontSize:16
+      color:'black',
+      fontSize:16,
+      // width:'50%'
     },
    
     loginBtn: {
@@ -66,7 +79,7 @@ import { StyleSheet } from "react-native";
       alignItems: "center",
       justifyContent: "center",
       marginTop: 20,
-      backgroundColor: "tomato",
+      // backgroundColor: "tomato",
       
     },
     loginText:{

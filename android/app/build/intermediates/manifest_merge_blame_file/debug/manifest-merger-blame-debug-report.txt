@@ -1,0 +1,196 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.capability_mob_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Aroha\Capability_Mob_App\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Aroha\Capability_Mob_App\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" /> <!-- Required -->
+12-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" /> <!-- Include this only if you are planning to use the camera roll -->
+13-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:10:5-80
+14-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:10:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Include this only if you are planning to use the microphone for video recording -->
+15-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:11:5-81
+15-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:11:22-78
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:14:5-70
+16-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:14:22-68
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.93.0] C:\Users\praka\.gradle\caches\transforms-3\f3d4208b9d80d9a60d72588e4d8613f9\transformed\jetified-flipper-0.93.0\AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.93.0] C:\Users\praka\.gradle\caches\transforms-3\f3d4208b9d80d9a60d72588e4d8613f9\transformed\jetified-flipper-0.93.0\AndroidManifest.xml:16:22-73
+18
+19    <uses-feature
+19-->[:react-native-camera] C:\Aroha\Capability_Mob_App\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitDebug\AndroidManifest.xml:11:5-13:36
+20        android:name="android.hardware.camera"
+20-->[:react-native-camera] C:\Aroha\Capability_Mob_App\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitDebug\AndroidManifest.xml:12:9-47
+21        android:required="false" />
+21-->[:react-native-camera] C:\Aroha\Capability_Mob_App\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitDebug\AndroidManifest.xml:13:9-33
+22    <uses-feature
+22-->[:react-native-camera] C:\Aroha\Capability_Mob_App\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitDebug\AndroidManifest.xml:14:5-16:36
+23        android:name="android.hardware.camera.autofocus"
+23-->[:react-native-camera] C:\Aroha\Capability_Mob_App\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitDebug\AndroidManifest.xml:15:9-57
+24        android:required="false" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+24-->[:react-native-camera] C:\Aroha\Capability_Mob_App\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitDebug\AndroidManifest.xml:16:9-33
+25    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\praka\.gradle\caches\transforms-3\9a9c35a5f89b8561d5f9a2637a4b1a47\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+26-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\praka\.gradle\caches\transforms-3\9a9c35a5f89b8561d5f9a2637a4b1a47\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+27
+28    <application
+28-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:17:5-36:19
+29        android:name="com.capability_mob_app.MainApplication"
+29-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:18:7-38
+30        android:allowBackup="false"
+30-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:22:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.2.0] C:\Users\praka\.gradle\caches\transforms-3\01a1772a94faee41fefe39c6aea1c816\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:20:7-41
+34        android:label="@string/app_name"
+34-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:19:7-39
+35        android:requestLegacyExternalStorage="true"
+35-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:24:7-50
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:21:7-52
+37        android:theme="@style/AppTheme"
+37-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:23:7-38
+38        android:usesCleartextTraffic="true" >
+38-->C:\Aroha\Capability_Mob_App\android\app\src\debug\AndroidManifest.xml:8:9-44
+39        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+39-->C:\Aroha\Capability_Mob_App\android\app\src\debug\AndroidManifest.xml:11:9-86
+39-->C:\Aroha\Capability_Mob_App\android\app\src\debug\AndroidManifest.xml:11:19-83
+40        <activity
+40-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:25:7-35:18
+41            android:name="com.capability_mob_app.MainActivity"
+41-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:26:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+42-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:28:9-86
+43            android:label="@string/app_name"
+43-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:27:9-41
+44            android:launchMode="singleTask"
+44-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:29:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:30:9-51
+46            <intent-filter>
+46-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:31:9-34:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:32:13-65
+47-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:32:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:33:13-73
+49-->C:\Aroha\Capability_Mob_App\android\app\src\main\AndroidManifest.xml:33:23-70
+50            </intent-filter>
+51        </activity>
+52
+53        <service
+53-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\praka\.gradle\caches\transforms-3\9fe5dd93d25528e5f417f29304d87487\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:9:9-15:19
+54            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+54-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\praka\.gradle\caches\transforms-3\9fe5dd93d25528e5f417f29304d87487\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:10:13-91
+55            android:directBootAware="true"
+55-->[com.google.mlkit:common:17.2.0] C:\Users\praka\.gradle\caches\transforms-3\495b7bc24c5a831f5626b7521302e55d\transformed\jetified-common-17.2.0\AndroidManifest.xml:17:13-43
+56            android:exported="false" >
+56-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\praka\.gradle\caches\transforms-3\9fe5dd93d25528e5f417f29304d87487\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:11:13-37
+57            <meta-data
+57-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\praka\.gradle\caches\transforms-3\9fe5dd93d25528e5f417f29304d87487\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:12:13-14:85
+58                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+58-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\praka\.gradle\caches\transforms-3\9fe5dd93d25528e5f417f29304d87487\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:13:17-114
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\praka\.gradle\caches\transforms-3\9fe5dd93d25528e5f417f29304d87487\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:14:17-82
+60            <meta-data
+60-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\praka\.gradle\caches\transforms-3\6166ce2348954e39c31636fc536eae1f\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:12:13-14:85
+61                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+61-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\praka\.gradle\caches\transforms-3\6166ce2348954e39c31636fc536eae1f\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:13:17-120
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\praka\.gradle\caches\transforms-3\6166ce2348954e39c31636fc536eae1f\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:14:17-82
+63            <meta-data
+63-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\praka\.gradle\caches\transforms-3\e135c4a0f30af53610bad5eb9d0f3bcb\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:12:13-14:85
+64                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+64-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\praka\.gradle\caches\transforms-3\e135c4a0f30af53610bad5eb9d0f3bcb\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:13:17-114
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\praka\.gradle\caches\transforms-3\e135c4a0f30af53610bad5eb9d0f3bcb\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:14:17-82
+66            <meta-data
+66-->[com.google.mlkit:vision-common:16.5.0] C:\Users\praka\.gradle\caches\transforms-3\72ab431e3c580a130d0d8a07e50b727a\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+67                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+67-->[com.google.mlkit:vision-common:16.5.0] C:\Users\praka\.gradle\caches\transforms-3\72ab431e3c580a130d0d8a07e50b727a\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.mlkit:vision-common:16.5.0] C:\Users\praka\.gradle\caches\transforms-3\72ab431e3c580a130d0d8a07e50b727a\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+69            <meta-data
+69-->[com.google.mlkit:common:17.2.0] C:\Users\praka\.gradle\caches\transforms-3\495b7bc24c5a831f5626b7521302e55d\transformed\jetified-common-17.2.0\AndroidManifest.xml:20:13-22:85
+70                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+70-->[com.google.mlkit:common:17.2.0] C:\Users\praka\.gradle\caches\transforms-3\495b7bc24c5a831f5626b7521302e55d\transformed\jetified-common-17.2.0\AndroidManifest.xml:21:17-120
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.mlkit:common:17.2.0] C:\Users\praka\.gradle\caches\transforms-3\495b7bc24c5a831f5626b7521302e55d\transformed\jetified-common-17.2.0\AndroidManifest.xml:22:17-82
+72        </service>
+73
+74        <provider
+74-->[com.google.mlkit:common:17.2.0] C:\Users\praka\.gradle\caches\transforms-3\495b7bc24c5a831f5626b7521302e55d\transformed\jetified-common-17.2.0\AndroidManifest.xml:9:9-13:38
+75            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+75-->[com.google.mlkit:common:17.2.0] C:\Users\praka\.gradle\caches\transforms-3\495b7bc24c5a831f5626b7521302e55d\transformed\jetified-common-17.2.0\AndroidManifest.xml:10:13-78
+76            android:authorities="com.capability_mob_app.mlkitinitprovider"
+76-->[com.google.mlkit:common:17.2.0] C:\Users\praka\.gradle\caches\transforms-3\495b7bc24c5a831f5626b7521302e55d\transformed\jetified-common-17.2.0\AndroidManifest.xml:11:13-69
+77            android:exported="false"
+77-->[com.google.mlkit:common:17.2.0] C:\Users\praka\.gradle\caches\transforms-3\495b7bc24c5a831f5626b7521302e55d\transformed\jetified-common-17.2.0\AndroidManifest.xml:12:13-37
+78            android:initOrder="99" />
+78-->[com.google.mlkit:common:17.2.0] C:\Users\praka\.gradle\caches\transforms-3\495b7bc24c5a831f5626b7521302e55d\transformed\jetified-common-17.2.0\AndroidManifest.xml:13:13-35
+79
+80        <service
+80-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\praka\.gradle\caches\transforms-3\9a9c35a5f89b8561d5f9a2637a4b1a47\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+81            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+81-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\praka\.gradle\caches\transforms-3\9a9c35a5f89b8561d5f9a2637a4b1a47\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+82            android:exported="false" >
+82-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\praka\.gradle\caches\transforms-3\9a9c35a5f89b8561d5f9a2637a4b1a47\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+83            <meta-data
+83-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\praka\.gradle\caches\transforms-3\9a9c35a5f89b8561d5f9a2637a4b1a47\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+84                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+84-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\praka\.gradle\caches\transforms-3\9a9c35a5f89b8561d5f9a2637a4b1a47\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+85                android:value="cct" />
+85-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\praka\.gradle\caches\transforms-3\9a9c35a5f89b8561d5f9a2637a4b1a47\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+86        </service>
+87        <service
+87-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\praka\.gradle\caches\transforms-3\9e751b84a662aaa3a862578f637001ae\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+88            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+88-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\praka\.gradle\caches\transforms-3\9e751b84a662aaa3a862578f637001ae\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+89            android:exported="false"
+89-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\praka\.gradle\caches\transforms-3\9e751b84a662aaa3a862578f637001ae\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+90            android:permission="android.permission.BIND_JOB_SERVICE" >
+90-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\praka\.gradle\caches\transforms-3\9e751b84a662aaa3a862578f637001ae\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+91        </service>
+92
+93        <receiver
+93-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\praka\.gradle\caches\transforms-3\9e751b84a662aaa3a862578f637001ae\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+94            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+94-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\praka\.gradle\caches\transforms-3\9e751b84a662aaa3a862578f637001ae\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+95            android:exported="false" />
+95-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\praka\.gradle\caches\transforms-3\9e751b84a662aaa3a862578f637001ae\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+96
+97        <activity
+97-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\praka\.gradle\caches\transforms-3\2b67bac7c6009b3a9dd8187813184f0a\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+98-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\praka\.gradle\caches\transforms-3\2b67bac7c6009b3a9dd8187813184f0a\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\praka\.gradle\caches\transforms-3\2b67bac7c6009b3a9dd8187813184f0a\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\praka\.gradle\caches\transforms-3\2b67bac7c6009b3a9dd8187813184f0a\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+101
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\praka\.gradle\caches\transforms-3\815add77f9563a20732f3470b2d6a764\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\praka\.gradle\caches\transforms-3\815add77f9563a20732f3470b2d6a764\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\praka\.gradle\caches\transforms-3\815add77f9563a20732f3470b2d6a764\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+105    </application>
+106
+107</manifest>

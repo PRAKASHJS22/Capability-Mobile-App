@@ -64,6 +64,15 @@ const styles = StyleSheet.create({
       fontSize:16,
       color:'#fff'
     },
+    errorText:{
+      fontSize:14,
+      marginLeft:40,
+      marginBottom:10,
+      marginVertical:-10,
+      color:'red',
+      textAlign:'left',
+      alignSelf:'flex-start'
+    },
    
   });
   
