@@ -15,7 +15,7 @@ import Register from './src/screens/register/Register';
 // import Login from './src/screens/login/Login';
 // import ListOfTopics from './src/screens/dashboard/ListOfTopics';
 // import LevelSelect from './src/screens/selectTest/TestSelect'
-// import Instruction from './src/screens/instruction/Instruction';
+import Instruction from './src/screens/instruction/Instruction';
 // import SingleChoice from './src/screens/singlechoice/SingleChoice';
 // import MultipleChoice from './src/screens/multiplechoice/MultipleChoice';
 // import VideoRecord from './src/screens/CameraModule/VideoRecord';

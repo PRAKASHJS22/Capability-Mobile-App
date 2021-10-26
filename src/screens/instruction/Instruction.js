@@ -47,15 +47,16 @@ const Instruction = ()=>{
                 is completed.</Text>
         
             </View>
-            <View style={{flexDirection:'row',justifyContent:'space-around',marginVertical:40}}>
 
-<TouchableOpacity style={styles.loginBtn}>
-    <Text style={styles.loginText}>Start Test</Text>
-</TouchableOpacity>
-<TouchableOpacity style={[styles.loginBtn,{backgroundColor:'#DC3545'}]}>
-    <Text style={styles.loginText}>Cancel Test</Text>
-</TouchableOpacity>
-</View>
+            <View style={{flexDirection:'row',justifyContent:'space-around',marginVertical:10}}>
+
+                    <TouchableOpacity style={styles.loginBtn}>
+                        <Text style={styles.loginText}>Start Test</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={[styles.loginBtn,{backgroundColor:'#DC3545'}]}>
+                        <Text style={styles.loginText}>Cancel Test</Text>
+                    </TouchableOpacity>
+            </View>
          </Card>
       
        

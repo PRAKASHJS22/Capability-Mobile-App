@@ -12,6 +12,7 @@ import Register from '../screens/register/Register';
 import VideoRecord from '../screens/CameraModule/VideoRecord';
 import SingleChoice from '../screens/singlechoice/SingleChoice'
 import MultipleChoice from '../screens/multiplechoice/MultipleChoice'
+import Assigned_Tests from '../screens/assignedTests/Assigned_Tests';
 
 // import AuthStack from './AuthStack';
 
@@ -31,6 +32,10 @@ const MyTabs= ()=> {
             <Tab.Screen name="Test Select" component={TestSelect} 
                  options={{headerShown:false,
                  tabBarIcon:()=>(<MaterialCommunityIcons name={'view-list'} color={'steelblue'} size={25}/>)}}/>
+
+             <Tab.Screen name="Assigned" component={Assigned_Tests} 
+                 options={{headerShown:false,
+                 tabBarIcon:()=>(<MaterialCommunityIcons name={'pencil-box-outline'} color={'steelblue'} size={25}/>)}}/>
      
             <Tab.Screen name="TestScreen" component={SingleChoice} 
                 options={{headerShown:false,
