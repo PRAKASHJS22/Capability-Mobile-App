@@ -19,7 +19,7 @@ const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 // const Tab = createBottomTabNavigator();
 
-
+import TopTab from './MaterialTopTab';
 
 export default MainStack=({navigation})=>{
 
@@ -41,7 +41,7 @@ export default MainStack=({navigation})=>{
                     headerStyle: {height: 40,backgroundColor:'#fff',},
                     drawerType:'front', // It shows how the drawer shoud appear
                     overlayColor: 'transparent',
-
+                    
                     // header: ({ navigation, route, options }) => {
                     // const title = getHeaderTitle(options, route.name);
                     //  return <MyHeader title={title} style={options.headerStyle} />;

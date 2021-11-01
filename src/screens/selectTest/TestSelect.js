@@ -19,8 +19,8 @@ const LevelSelect = () =>{
   const [value, setValue] = useState(null);
   const [items, setItems] = useState([
     {label: 'Select', value: 1, disabled: true},
-    {label: 'Beginner', value: 'apple'},
-    {label: 'Intermediate', value: 'banana'},
+    {label: 'Beginner', value: 'Beginner'},
+    {label: 'Intermediate', value: 'Intermediate'},
     {label: 'Expert', value: 'Expert'}
   ]);
   return (  

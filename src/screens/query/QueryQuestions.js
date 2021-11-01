@@ -88,7 +88,7 @@ export default QueryQuestions = ()=>{
         </Card>   
 
       
-         <Card containerStyle={{...styles.Rigistercard,height:Dimensions.get('window').height/3.5}}>
+         <Card containerStyle={{...styles.Rigistercard,height:Dimensions.get('window').height/3.9}}>
 
                 <View style={{width:'100%',flex:1,justifyContent:'flex-start'}}>
                 <TextInput  placeholder='Write your query here.'

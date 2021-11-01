@@ -104,7 +104,7 @@ textStyle:{
       flexDirection:'row',
       justifyContent:'space-around',
     //   marginVertical:20,
-      marginBottom:25
+      marginBottom:50
     },
     loginBtn: {
       width: Dimensions.get('window').width/3,

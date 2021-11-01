@@ -20,7 +20,7 @@ const Instruction = ()=>{
     return(
         <View style={styles.container}>
 
-            <View style={{justifyContent:'flex-start',marginHorizontal:10,marginVertical:10}}>
+            <View style={{justifyContent:'flex-start',marginHorizontal:10,marginVertical:1}}>
                 <Text style={styles.text}>Name :Prakash</Text>
                 <Text style={styles.text}>Test ID :ReactJS-Beginner-4</Text>
                 <Text style={styles.text}>Topic Name :ReactJS</Text>
@@ -29,7 +29,7 @@ const Instruction = ()=>{
                 <Text style={styles.text}>Date :{date} </Text>
             </View>
         <View style={styles.topicename}>    
-            <Text style={[styles.topicenametext]}>Test Rules</Text>
+            <Text style={styles.topicenametext}>Test Rules</Text>
         </View>
 
         <Card containerStyle={styles.Rigistercard}>

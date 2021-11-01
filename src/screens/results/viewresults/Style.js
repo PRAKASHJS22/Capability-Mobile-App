@@ -19,11 +19,14 @@ import { StyleSheet,Dimensions } from "react-native";
       textTransform:'uppercase'
     },
     Rigistercard: {
-    backgroundColor: 'powderblue',
+    // backgroundColor: 'powderblue',
     alignSelf: 'center',
-    height: Dimensions.get('window').height / 2,
+    flex:1,
+    // height: Dimensions.get('window').height / 2.2,
     marginBottom: 10,
     width: Dimensions.get('window').width / 1.1,
+    elevation:15,
+   
   },
       topicename :{
         backgroundColor : '#343A40',
@@ -55,12 +58,28 @@ import { StyleSheet,Dimensions } from "react-native";
         fontSize:16,
         color:'#fff'
       },
-   rules:{
+    rules:{
     fontSize:15,
     fontWeight:'500',
     // numberOfLines:2
-    lineHeight:25
-   }
+    // lineHeight:25
+   },
+   dropdownstyle:{
+    // marginHorizontal:20,
+    // marginTop:10
+    width:Dimensions.get('window').width/2.9,
+    // right:20,
+    top:30
+},
+pdfStyle:{
+    justifyContent:'center',
+    alignItems:'center',
+    height:'35%',
+    width:"45%",
+    // marginHorizontal:20,
+    backgroundColor:'#5CB85C',
+    borderRadius:10
+}
   });
 
 

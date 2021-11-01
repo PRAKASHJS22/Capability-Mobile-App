@@ -22,6 +22,7 @@ import Animated from "react-native-reanimated";
 
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import AntDesign from 'react-native-vector-icons/AntDesign';
+import TopTab from "./MaterialTopTab";
 
 const DrawerCOntent=(props)=>{
 
@@ -125,6 +126,7 @@ const DrawerCOntent=(props)=>{
                        
                         // onPress={() => {props.navigation.navigate('SupportScreen')}}
                     />
+                    
                 </Drawer.Section>
                 {/* <Drawer.Section title="Preferences">
                     <TouchableRipple onPress={() => {toggleTheme()}}>
