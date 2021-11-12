@@ -129,6 +129,10 @@ textStyle:{
       textAlign:'left',
       alignSelf:'flex-start'
     },
+    text:{
+        fontSize:12,
+        fontWeight:'600'
+      },
    
   });
   

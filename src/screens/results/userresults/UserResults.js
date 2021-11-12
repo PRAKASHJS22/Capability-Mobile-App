@@ -3,6 +3,7 @@ import { StyleSheet, View, Text, TouchableOpacity, Alert, ScrollView,KeyboardAvo
 import { Table, TableWrapper, Row, Cell } from 'react-native-table-component';
 import { Searchbar } from 'react-native-paper';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import viewResults from '../viewresults/ViewResults';
 
  const userResults =()=> {
 const [data,Setdata]=useState({
@@ -80,7 +81,7 @@ const alertIndex= index => Alert.alert(`This is row ${index + 1}`);
           <Row data={data.tableHead} style={styles.head} textStyle={styles.text} />
           {
             data.tableData.map((rowData, index) => (
-            <TouchableOpacity key={index} onPress={()=>{alert('Checking')}}>
+            <TouchableOpacity key={index} onPress={()=>alert('Checking')}>
               <TableWrapper key={index} style={styles.row}>
                 {
                   rowData.map((cellData, cellIndex) => (

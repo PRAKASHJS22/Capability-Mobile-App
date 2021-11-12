@@ -7,6 +7,11 @@ import ListOfTopics  from '../screens/dashboard/ListOfTopics'
 import AssignedTests from '../screens/assignedTests/AssignedTests';
 import Instruction from '../screens/instruction/Instruction';
 import userResults from '../screens/results/userresults/UserResults';
+import expolore from '../screens/explore/Explore';
+import Dashboard from '../screens/ibridgedashboard/index'
+// import Programs from '../screens/ibridgedashboard/programs/ListOfPrograms'
+
+import Payment from '../screens/ibridgedashboard/payment/Payment';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -15,8 +20,11 @@ const  TopTab=()=>{
 
     // <NavigationContainer>
         <Tab.Navigator
+            
             screenOptions={{
             tabBarLabelStyle: { fontSize: 12 },
+            
+              
             // tabBarItemStyle: { width: 100 },
             // tabBarStyle: { backgroundColor: 'powderblue' },
             // swipeEnabled:false
@@ -64,6 +72,10 @@ const  TopTab=()=>{
             <Tab.Screen  name="Topics" component={ListOfTopics} />
             <Tab.Screen name="Assigned Tests" component={AssignedTests} />
             <Tab.Screen name="Instructions" component={Instruction} />
+            <Tab.Screen name="Explore" component={expolore} />
+            <Tab.Screen name="Ibrdige" component={Dashboard} />
+            <Tab.Screen name="Payment" component={Payment} />
+            {/* <Tab.Screen name="Programs" component={Programs} /> */}
             {/* <Tab.Screen name="Results" component={userResults} /> */}
         </Tab.Navigator>
     // </NavigationContainer>

@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from "react";
-import { View, Text,TouchableOpacity} from "react-native";
+import { View, Text,TouchableOpacity, Dimensions} from "react-native";
 import { Card } from "react-native-elements";
 import CountDown from 'react-native-countdown-component';
 import moment from 'moment';
@@ -10,13 +10,16 @@ import LinearGradient from 'react-native-linear-gradient';
 import CheckBox from '../../components/CheckBox';
 
 import styles from "./Style";
+import { ScrollView } from "react-native-gesture-handler";
 
 
-export default MultipleChoice = ()=>{
+export default Dashboard = ()=>{
 
     // const [totalDuration, setTotalDuration] = useState(0);
 
     const [checked, setChecked] = useState(false);
+
+    const date= moment().format("YYYY-MM-D" )
 
     //  const onPress = () => {setChecked(!checked);}}
 
@@ -49,8 +52,17 @@ export default MultipleChoice = ()=>{
     return( 
        
     <View style={styles.container}>
-
+<ScrollView>
 <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#080718', '#01759c', '#00d4ff']} style={styles.linearGradient}>
+    <Card containerStyle={{shadowOffset:4,shadowOpacity:1,shadowColor:'#000',elevation:10}}>
+                <View style={{justifyContent:'flex-start',}}>
+                    <Text style={styles.text}>Name :Prakash</Text>
+                    <Text style={styles.text}>Email :prakashjs22@gmail.com</Text>
+                    <Text style={styles.text}>Test ID :ReactJS-Beginner-4</Text>
+                    <Text style={styles.text}>Topic Name: Business 101</Text>
+                    <Text style={styles.text}>Skill Level: Beginner</Text>
+                </View>
+            </Card>
         <View style={styles.headerstyle}>
             <Text style={styles.singlequestion}>1/20</Text>
             <MaterialCommunityIcons size={25} name="timer-outline" style={styles.icon} color='#000'/>
@@ -71,7 +83,7 @@ export default MultipleChoice = ()=>{
         <View>
             <Text style={styles.singlequestion}>Mutiple Choice Questions</Text>
         </View>
-        <Card containerStyle={styles.Rigistercard}>
+        <Card containerStyle={{...styles.Rigistercard,height:Dimensions.get('window').height/4.5}}>
             <View >
                    <Text style={styles.questionnumber}>Question 1:</Text>   
             </View>
@@ -190,6 +202,7 @@ export default MultipleChoice = ()=>{
             </TouchableOpacity>
         </View>
         </LinearGradient>
+        </ScrollView>
     </View>
 )
 

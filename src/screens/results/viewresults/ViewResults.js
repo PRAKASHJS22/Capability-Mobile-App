@@ -11,10 +11,9 @@ import {
 import moment from 'moment'
 import { Card } from "react-native-elements";
 import DropDownPicker from 'react-native-dropdown-picker';
-import { List } from 'react-native-paper';
+
 import styles from "./Style";
-import { ScrollView } from "react-native-gesture-handler";
-import { VirtualizedList } from "react-native";
+
 
 
 

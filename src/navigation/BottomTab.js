@@ -18,6 +18,7 @@ import userResults from '../screens/results/userresults/UserResults';
 import TopTab from '../navigation/MaterialTopTab'
 import viewResults from '../screens/results/viewresults/ViewResults';
 import barchart from '../screens/visuals/barchart';
+import Programs from '../screens/ibridgedashboard/programs/ListOfPrograms';
 // import AuthStack from './AuthStack';
 
 const Tab = createBottomTabNavigator();
@@ -70,6 +71,9 @@ const MyTabs= ()=> {
                  tabBarIcon:()=>(<MaterialCommunityIcons name={'chart-bar'} color={'steelblue'} size={25}/>)}}/>
 
             <Tab.Screen name="camera" component={VideoRecord} 
+                options={{headerShown:false,
+                 tabBarIcon:()=>(<MaterialCommunityIcons name={'camera'} color={'steelblue'} size={25}/>)}}/>
+            <Tab.Screen name="Programs" component={Programs} 
                 options={{headerShown:false,
                  tabBarIcon:()=>(<MaterialCommunityIcons name={'camera'} color={'steelblue'} size={25}/>)}}/>
                  
